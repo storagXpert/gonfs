@@ -17,9 +17,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"gonfs/nfs3"
-	"gonfs/oncrpc"
-	"gonfs/portmapper"
+	"github.com/storagXpert/gonfs/nfs3"
+	"github.com/storagXpert/gonfs/oncrpc"
+	"github.com/storagXpert/gonfs/portmapper"
 	"io/ioutil"
 	"log"
 	"net"
