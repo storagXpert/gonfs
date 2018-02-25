@@ -5,7 +5,11 @@ External Data Representation  and ONC RemoteProcedureCall
 
 # Typical Usage
 **Start gonfs on a Linux server**  
-Build gonfs binary by running cmd 'go build' in top src directory.  
+*go get github.com/storagXpert/gonfs*  
+assuming GOPATH is set to */home/noroot/go*, go get would fetch  
+gonfs project here: */home/noroot/go/src/github.com/storagXpert/gonfs*  
+Switch to directory above and build gonfs binary by running *go build* .  
+
 Run *rpcinfo -p* to start rpcbind service.  
 Run gonfs as the default user.  
 Example : *./gonfs -allowAddr 192.168.109.0/24 -exportPath /home/noroot/storagXpert/mountDir*  
