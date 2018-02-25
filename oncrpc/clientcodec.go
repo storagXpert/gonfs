@@ -17,7 +17,7 @@ package oncrpc
 import (
 	"bytes"
 	"fmt"
-	"gonfs/xdr"
+	"github.com/storagXpert/gonfs/xdr"
 	"io"
 	"net/rpc"
 )
