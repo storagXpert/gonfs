@@ -17,7 +17,7 @@ package portmapper
 import (
 	"errors"
 	"fmt"
-	"gonfs/oncrpc"
+	"github.com/storagXpert/gonfs/oncrpc"
 	"net"
 	"net/rpc"
 	"strconv"
